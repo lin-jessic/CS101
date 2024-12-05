@@ -1,5 +1,5 @@
 int main(){
-    int i = 3;
+    int i = 10;
     if (i & 1) {
         printf("false");
     }
