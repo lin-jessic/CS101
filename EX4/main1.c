@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //自己的版本
 
 int main(){
     int n = 7;
