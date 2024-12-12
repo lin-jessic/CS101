@@ -6,7 +6,7 @@ int main() {
     long ipi = 0;
     int x = 0;
     
-    for (int i =3; i<1000000; i+=2) {
+    for (int i = 3; i < 1000000; i += 2) {
         if (flag == 0) {
             pi += (4.0/i);
             flag++;
@@ -17,11 +17,11 @@ int main() {
         }
         ipi = pi * 100000;
         if (ipi == 314159) {
-            x=i;
+            x = i;
             break;
         }
     }
-    printf("%d %.5f", x, pi);
+    printf("%d %.5f", x , pi);
     // 272241 3.314159
     return 0;
 }
